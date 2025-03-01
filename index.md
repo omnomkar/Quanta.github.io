@@ -28,6 +28,8 @@ This project involved setting up a mini Security Operations Center (SOC) environ
   - **Incidents & Alerts**: Used Sentinel’s AI-driven analytics to detect potential security breaches.
 - During the testing phase, **more than 1,000 RDP** events were recorded, along with all detected security incidents for analysis.
 
+![Overview](Screenshot 2025-02-11 012504.png)
+
 # Key Metrics & Results
 
 *   Recorded over 1,000 RDP events within the testing period.
@@ -41,111 +43,32 @@ This project involved setting up a mini Security Operations Center (SOC) environ
 *   **Cybersecurity & Threat Intelligence** – Detecting threats, monitoring RDP events, and identifying unauthorized access attempts.
 *   **Incident Response & Forensics** – Investigating security incidents, applying mitigation techniques, and enforcing security policies.
 
+# **Challenges & Solutions**
 
+## Challenges Faced
 
+*   Managing public RDP exposure while preventing actual compromise.
+*   Automating incident detection efficiently.
+*   Writing optimized KQL queries for log analysis.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Solutions Implemented
 
-### Header 3
+*   Applied NSG & firewall rules to restrict unwanted traffic.
+*   Used Sentinel AI analytics to correlate security events.
+*   Developed automation scripts for incident response.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+# **Conclusion & Future Enhancements**
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Final Thoughts:
+> This project provided hands-on experience in simulating a **real-world SOC environment**, demonstrating the importance of **proactive threat monitoring, incident response, and cloud security strategies** using Microsoft Sentinel and Azure-based SIEM tools. It reinforced key cybersecurity principles, emphasizing the value of log analysis, automation, and continuous security improvements in cloud infrastructure.
 
-#### Header 4
+## Next Steps:
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Implement machine learning-based anomaly detection for better threat identification.
+*   Integrate Azure Logic Apps for automated incident response workflows.
+*   Expand monitoring to include additional security logs (firewall, endpoint security).
 
-##### Header 5
+## Connect with me:
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+*   Contact me: fulsundars.omkar@gmail.com
+*   Linkedin: [Link to another page]((https://www.linkedin.com/in/omkarfulsundar/)).
