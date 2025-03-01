@@ -71,4 +71,4 @@ This project involved setting up a mini Security Operations Center (SOC) environ
 ## Connect with me:
 
 *   Contact me: fulsundars.omkar@gmail.com
-*   Linkedin: [Link to another page]((https://www.linkedin.com/in/omkarfulsundar/)).
+*   Linkedin: [Linkedin]((https://www.linkedin.com/in/omkarfulsundar/)).
