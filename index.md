@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Overview
+# **Overview**
 
 This project involved setting up a mini Security Operations Center (SOC) environment using Microsoft Azure. The goal was to simulate real-world cybersecurity monitoring by exposing a virtual machine (VM) to public internet traffic, capturing events, and analyzing security logs using Microsoft Sentinel, a cloud-native Security Information and Event Management (SIEM) solution.
 
