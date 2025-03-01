@@ -2,19 +2,43 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 [Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Overview
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This project involved setting up a mini Security Operations Center (SOC) environment using Microsoft Azure. The goal was to simulate real-world cybersecurity monitoring by exposing a virtual machine (VM) to public internet traffic, capturing events, and analyzing security logs using Microsoft Sentinel, a cloud-native Security Information and Event Management (SIEM) solution.
 
-## Header 2
+![Overview](Screenshot 2025-02-11 012331.png)
+
+# Implementation Details
+
+### Virtual Machine (VM) Deployment & Exposure
+*   A Windows-based **VM** was created in Microsoft Azure and configured to allow Remote Desktop Protocol **(RDP)** access from public IP addresses.
+*   This setup intentionally exposed the VM to potential security threats to simulate **real-world attack scenarios** and unauthorized access attempts.
+
+### Data Connection to Microsoft Sentinel
+
+*   **Microsoft Sentinel** was used as the **SIEM** platform to aggregate and analyze security logs.
+*   A data connector was established between the Azure VM and Sentinel to collect security events, focusing on RDP access logs and user authentication attempts.
+
+### Log Collection and Monitoring
+
+- Configured data collection rules in Sentinel to track and analyze specific security events, including:
+  - **Successful & Failed Sign-ins**: Recorded login attempts to identify suspicious activity.
+  - **RDP Events**: Logged remote access sessions for threat detection.
+  - **Incidents & Alerts**: Used Sentinel’s AI-driven analytics to detect potential security breaches.
+- During the testing phase, **more than 1,000 RDP** events were recorded, along with all detected security incidents for analysis.
+
+# Skills Acquired
+
+*   **Cloud Computing & Virtualization** – Setting up and managing Azure-based virtual machines and networking configurations.
+*   **Security Information and Event Management (SIEM) & Log Analysis** – Collecting, analyzing, and monitoring security logs in Microsoft Sentinel.
+*   **Cybersecurity & Threat Intelligence** – Detecting threats, monitoring RDP events, and identifying unauthorized access attempts.
+*   **Incident Response & Forensics** – Investigating security incidents, applying mitigation techniques, and enforcing security policies.
+
+
 
 > This is a blockquote following a header.
 >
