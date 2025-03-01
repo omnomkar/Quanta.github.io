@@ -10,6 +10,7 @@ This project involved setting up a mini Security Operations Center (SOC) environ
 
 # Implementation Details
 
+
 ### Virtual Machine (VM) Deployment & Exposure
 *   A Windows-based **VM** was created in Microsoft Azure and configured to allow Remote Desktop Protocol **(RDP)** access from public IP addresses.
 *   This setup intentionally exposed the VM to potential security threats to simulate **real-world attack scenarios** and unauthorized access attempts.
@@ -27,6 +28,12 @@ This project involved setting up a mini Security Operations Center (SOC) environ
   - **Incidents & Alerts**: Used Sentinel’s AI-driven analytics to detect potential security breaches.
 - During the testing phase, **more than 1,000 RDP** events were recorded, along with all detected security incidents for analysis.
 
+# Key Metrics & Results
+
+*   Recorded over 1,000 RDP events within the testing period.
+*   Successfully detected multiple security incidents related to unauthorized access.
+*   Demonstrated real-world cybersecurity monitoring using cloud-based SIEM tools.
+
 # Skills Acquired
 
 *   **Cloud Computing & Virtualization** – Setting up and managing Azure-based virtual machines and networking configurations.
@@ -34,11 +41,7 @@ This project involved setting up a mini Security Operations Center (SOC) environ
 *   **Cybersecurity & Threat Intelligence** – Detecting threats, monitoring RDP events, and identifying unauthorized access attempts.
 *   **Incident Response & Forensics** – Investigating security incidents, applying mitigation techniques, and enforcing security policies.
 
-# Key Metrics & Results
 
-*   Recorded over 1,000 RDP events within the testing period.
-*   Successfully detected multiple security incidents related to unauthorized access.
-*   Demonstrated real-world cybersecurity monitoring using cloud-based SIEM tools.
 
 
 > This is a blockquote following a header.
